@@ -1,0 +1,45 @@
+/*header*/
+header  {
+  font-family:'Oswald', sans-serif;
+  color: #fff8dc;
+  font-size: 40px;
+  height: 150px;
+  background-color: #A0522D;
+}
+/*main*/
+main  {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 25px;
+  color: #4e2e28;
+  background-color: transparent;
+}
+/*footer*/
+footer{
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: transparent;
+  background-color: #A0522D;
+  line-height: 60px;
+}
+
+body  {
+       background-color: #F5DEB3;
+       background-repeat: repeat;
+}
+/*wrapper class*/
+.wrapper{
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+/*nesting below*/
+.wrapper ul {
+  text-align: left;
+}
+
+.wrapper img {width: 100%}
+
+a:link    { color: blue;  }
+a:visited { color: orange;   }
+a:hover   { color: #A0522D; }
+a:active  { color: pink;  }
